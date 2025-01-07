@@ -1,0 +1,18 @@
+site_name: Chatbot Automation
+site_description: Documentation for Chatbot Automation
+
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+
+plugins:
+  - techdocs-core
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - mdx_truly_sane_lists
+
+theme:
+  name: material
