@@ -2,11 +2,9 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: chatbot-automation
-  description: A repository for automating chatbot functionality.
   annotations:
-    github.com/project-slug: MaheswariN121/Chatbot_automation
-    backstage.io/techdocs-ref: url:https://github.com/MaheswariN121/Chatbot_automation
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: service
-  lifecycle: production
-  owner: MaheswariN121-team
+  lifecycle: experimental
+  owner: user:guest
